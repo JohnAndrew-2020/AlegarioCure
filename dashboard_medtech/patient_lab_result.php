@@ -10,7 +10,7 @@
   /* Add CSS styles here */
   /* Define the table layout */
   table {
-    width: 75%;
+    width: 85%;
     margin: auto;
     border-collapse: collapse;
     text-align: left;
@@ -26,32 +26,24 @@
     padding: 12px;
     border: 1px solid #ddd;
   }
-
-
   .module {
     background-color: white;
     border: 2px solid white;  /* Add a border to the module */
     border-radius: 22px; 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  /* Add a shadow */
     padding: 50px;  /* Add padding to the module */
-    width: 530px;  /* Set the width of the module */
+    width: 570px;  /* Set the width of the module */
     height: 720px;  /* Set the height of the module */
     margin-left: auto;
     margin-right: auto; 
     
   }
-
-
-
   
 body {
   background-image: url('img/pexels-tima-miroshnichenko-5355865.jpg');  /* Add the background image */
   background-repeat: no-repeat;  /* Do not repeat the image */
   background-size: cover;  /* Resize the image to cover the entire background */
 }
-
-
-
  /* Add styles to the pop-up message */
 #alert {
   background-color: lightblue;
@@ -65,9 +57,6 @@ body {
   transform: translate(-50%, -50%);
   display: none;
 }
-
-
-
 #screenshot-btn {
   padding: 10px 20px;
   background-color: #4CAF50;
@@ -81,10 +70,6 @@ body {
   width: fit-content;
   margin: 0 auto;
 }
-
-
-
-
 </style>
 </head>
 <body>
@@ -98,7 +83,8 @@ body {
   <tr>
     <th>Result ID</th>
     <th>Name</th>
-    <th>Date</th>
+    <th>Date of Test</th>
+    <th>Date of Result</th>
     <th>Doctor</th>
     <th>Age</th>
     <th>Gender</th>
@@ -112,10 +98,9 @@ body {
     <td> </td>
     <td> </td>
     <td> </td>
+    <td> </td>
   </tr>
-
 <br>
-
   <table><br><br>
     <tr>
       <th>Test Name</th>
@@ -139,10 +124,6 @@ body {
     </tr>
     
 </table>
-
-
-
-
    <script>
   
 	 // Show the pop-up message
@@ -158,14 +139,12 @@ document.addEventListener("DOMContentLoaded", function() {
    <script>
 			// Function for Screenshot 
 			const screenshotBtn = document.getElementById("screenshot-btn");
-
 screenshotBtn.addEventListener("click", () => {
   html2canvas(document.body).then(canvas => {
     const image = canvas.toDataURL("image/png");
     download(image, "screenshot.png");
   });
 });
-
 function download(data, filename) {
   const a = document.createElement("a");
   a.href = data;
@@ -174,19 +153,14 @@ function download(data, filename) {
   a.click();
   a.remove();
 }
-
    </script>
    
-
 <br><br><br>
 <p>"This form is intended for patient results based on a test form filled out by the patient. Any results submitted on this form that do not correspond to a test form completed by the patient will not be accepted."</p>
 <center><p>©2023 AlegarioCure Hospital | All Rights Reserved</p></center>
 </div>
 <br><br><br>
 </body>
-
   <button id="screenshot-btn">Take Screenshot</button>
 	  <br><br><br>
-
-
 </html>
