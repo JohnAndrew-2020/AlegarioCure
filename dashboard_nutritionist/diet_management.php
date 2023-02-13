@@ -273,18 +273,37 @@
 
 	   
 <form>
-    <h2>ID Form</h2>
-    <select id="category" name="category">
-        <option value="pre-surgery">Pre-Surgery</option>
-        <option value="post-surgery">Post-Surgery</option>
-        <option value="balance-diet">Balance-Diet</option>
-    </select>
+
+<div class="module04" style="background-image: url('img/personal-info - Copy.png')">
+
+<i class="fas fa-flask"></i>
+<br><br><br>
+&nbsp;&nbsp;&nbsp;<a href="dietary_food_form.php" class="button button1">Pre-Surgery</a></button>
+</div>
+
+<br><br>
+
+<div class="module04" style="background-image: url('img/personal-info - Copy.png')">
+
+<i class="fas fa-flask"></i>
+<br><br><br>
+&nbsp;&nbsp;&nbsp;<a href="dietary_food_form.php" class="button button1">Post-Surgery</a></button>
+</div>
+
+<br><br>
+
+<div class="module04" style="background-image: url('img/personal-info - Copy.png')">
+
+<i class="fas fa-flask"></i>
+<br><br><br>
+&nbsp;&nbsp;&nbsp;<a href="dietary_food_form.php" class="button button1">Balance-Diet</a></button>
+</div>
+
+<br><br><br>
+
     </div>
         <br>
         <br>
-  <label for="patient-id">Please enter your patient/outpatient ID:</label><br>
-  <input type="text" id="patient-id" name="patient-id"><br><br>
-  <a href="dietary_food_form.php" class="button button1">Click Here</a></button>
 </form> 
 
 
