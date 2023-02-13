@@ -286,10 +286,10 @@
 <br><br>
 
 <div class="module02" style="background-image: url('img/hmo01.png')">
-  <h2>Result Form</h2>
+  <h2>Laboratory Result</h2>
   <i class="fas fa-user-circle"></i>
   
-  <a href="lab_result02.php" class="button button1">Click Here</a></button>
+  <a href="functions/lab_results/lab_result.php" class="button button1">Click Here</a></button>
 </div>
 <br><br>    
 

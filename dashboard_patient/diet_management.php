@@ -268,72 +268,11 @@
 
 <body>
 
+<a href="functions/diet_management/balanced_diet.php">Balanced Diet</a>
 <br>
+<a href="functions/diet_management/pre_surgery.php">Pre-Surgery</a>
 <br>
-<div class="module" style="background-image: url('img/dashhhh.jpg')">
-  <h2>AlegarioCure Services</h2>
-  <i class="fas fa-user-circle"></i>
-  <br><br><br>
-  <a href="Dashboard.php" class="button button1">Dashboard</a></button>
-</div>
-<br>
-
-
-<div class="module011" style="background-image: url('img/2a9a8c_9a051c81cf8240108fbba9fd012516baf000.jpg')">
-  <h2>About this page</h2
-<center><p>Diet management is the process of monitoring and regulating one's food intake to ensure that they are eating<br> a balanced and healthy diet. This can be done by tracking what foods are being consumed, making sure that the diet includes all the necessary nutrients, and avoiding foods that may be harmful to the individual. Diet management is important for both physical and mental health, and can be tailored to the specific needs of each individual.
-</p></center>
-</div>
-
-
-<br>
-<br>
-<br>
-
-	   
-<form>
-
-<div class="module04" style="background-image: url('img/personal-info - Copy.png')">
-
-<i class="fas fa-flask"></i>
-<br><br><br>
-&nbsp;&nbsp;&nbsp;<a href="dietary_food_form.php" class="button button1">Pre-Surgery</a></button>
-</div>
-
-<br><br>
-
-<div class="module04" style="background-image: url('img/personal-info - Copy.png')">
-
-<i class="fas fa-flask"></i>
-<br><br><br>
-&nbsp;&nbsp;&nbsp;<a href="dietary_food_form.php" class="button button1">Post-Surgery</a></button>
-</div>
-
-<br><br>
-
-<div class="module04" style="background-image: url('img/personal-info - Copy.png')">
-
-<i class="fas fa-flask"></i>
-<br><br><br>
-&nbsp;&nbsp;&nbsp;<a href="dietary_food_form.php" class="button button1">Balance-Diet</a></button>
-</div>
-
-<br><br><br>
-
-    </div>
-        <br>
-        <br>
-</form> 
-
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-
-
+<a href="functions/diet_management/post_surgery.php">Post-Surgery</a>
 
 
   <!-- ======= Footer ======= -->

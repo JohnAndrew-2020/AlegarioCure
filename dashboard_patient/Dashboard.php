@@ -51,7 +51,7 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   
-  <style>
+<style>
   
   
   .button {
@@ -100,7 +100,7 @@
   
   
   
-  </style>
+</style>
   
   
   
