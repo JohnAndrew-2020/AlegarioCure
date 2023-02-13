@@ -14,6 +14,25 @@
 
 ?>
 
+
+<?php 
+
+  session_start();
+
+  if($_SESSION['status'] != 'patient') {
+
+    echo "<script>
+
+      window.history.back()
+
+    </script>";
+
+  }
+
+?>
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -89,7 +108,7 @@
 
 <body>
 
-
+ 
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top d-flex align-items-center">
 
@@ -187,7 +206,7 @@
     <ul class="sidebar-nav" id="sidebar-nav">
 
 
-        <li class="nav-heading">Dashboard Patient</li>
+        <li class="nav-heading">Dashboard Admin</li>
 
       <li class="nav-item">
         <a class="nav-link " href="outpatient_treatment2.php">
@@ -236,11 +255,11 @@
   <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Dashboard Patient</h1>
+      <h1>Dashboard Admin</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-          <li class="breadcrumb-item active">Dashboard Patient</li>
+          <li class="breadcrumb-item active">Dashboard Admin</li>
         </ol>
       </nav>
     </div><!-- End Page Title -->
@@ -273,17 +292,37 @@
 
 	   
 <form>
-    <h2>ID Form</h2>
-    <select id="category" name="category">
-        <option value="pre-surgery">Pre-Surgery</option>
-        <option value="post-surgery">Post-Surgery</option>
-    </select>
+
+<div class="module04" style="background-image: url('img/personal-info - Copy.png')">
+
+<i class="fas fa-flask"></i>
+<br><br><br>
+&nbsp;&nbsp;&nbsp;<a href="dietary_food_form.php" class="button button1">Pre-Surgery</a></button>
+</div>
+
+<br><br>
+
+<div class="module04" style="background-image: url('img/personal-info - Copy.png')">
+
+<i class="fas fa-flask"></i>
+<br><br><br>
+&nbsp;&nbsp;&nbsp;<a href="dietary_food_form.php" class="button button1">Post-Surgery</a></button>
+</div>
+
+<br><br>
+
+<div class="module04" style="background-image: url('img/personal-info - Copy.png')">
+
+<i class="fas fa-flask"></i>
+<br><br><br>
+&nbsp;&nbsp;&nbsp;<a href="dietary_food_form.php" class="button button1">Balance-Diet</a></button>
+</div>
+
+<br><br><br>
+
     </div>
         <br>
         <br>
-  <label for="patient-id">Please enter your patient/outpatient ID:</label><br>
-  <input type="text" id="patient-id" name="patient-id"><br><br>
-  <a href="food_category.php" class="button button1">Click Here</a></button>
 </form> 
 
 
